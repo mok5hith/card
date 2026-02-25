@@ -99,10 +99,10 @@ cars.forEach(function (elem) {
 
             <div class="car-details">
                 <h2>${elem.carName} </h2>
-                <h3>${elem.parentCompany}</h3>
+                <h3>${elem.parentCompany}</h4>
                 <h4>Engine: ${elem.engine}</h4>
-                <h5>Mileage: ${elem.mileage}</h5>
-                <h6>Price: ${elem.price}</h6>
+                <h4>Mileage: ${elem.mileage}</h5>
+                <h4>Price: ${elem.price}</h6>
 
                 <div class="extra-info">
 
